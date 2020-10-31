@@ -7,12 +7,16 @@
 a {
     text-decoration: none;
 }
+p{
+    font-size: 1rem;
+}
 
 section {
     width: 100%;
     box-sizing: border-box;
     text-align: center;
     height: auto;
+    font-size: 1.3rem;
     background: rgba(196,196,196,1);
 }
 section > h3 {
@@ -59,7 +63,6 @@ h4 {
     font-weight: 900;
 }
 .why p {
-    font-size: 0.80rem;
     color: #333;
     text-align: center;
 }
@@ -90,7 +93,7 @@ h4 {
 /* ******* ARTICLE ******* */
 article {
     position: relative;
-    padding-top: 35px;
+    padding-top: 0px;
 }
 .article {
     padding-top: 15px;
@@ -125,7 +128,8 @@ article .esvg {
     right: -3px;
     width: 55px;
     top: 0;
-    height: 130px;
+    margin: 0;
+    height: 120px;
 }
 article .csvg {
     position: absolute;
@@ -165,8 +169,8 @@ article .c7 {
 .grid-article {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: minmax(30px, 80px);
-    grid-auto-rows: 70px;
+    grid-template-rows: minmax(60px, 100px);
+    grid-auto-rows: 80px;
     text-align: center;
     grid-auto-flow: row;
     grid-gap: 15px;
@@ -175,7 +179,7 @@ article .c7 {
 .grid-article div {
     position: relative;
     border-radius: 20px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 15px 0;
 }
 
@@ -191,7 +195,7 @@ article .c7 {
 
 .grid-article div .plus {
     position: absolute;
-    bottom: 5%;
+    bottom: 4.5%;
     right: 7%;
     width: 13px;
     height: 13px;
@@ -345,6 +349,10 @@ footer p {
     margin: 5px 1px 0.8rem;
 }
 
+.links a {
+    color: inherit;
+}
+
 .links p:hover, .links div a:hover {
     color: #266352;
     background-color: #fafafa;
@@ -359,8 +367,8 @@ footer p {
     color: white;
     font-size: 23px;
     border: .8px solid white;
-    border-radius: 50%;
-    padding: 10px;
+    border-radius: 48%;
+    padding: 9px 13px;
     display: none;
 }
 

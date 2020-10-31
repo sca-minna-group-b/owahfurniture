@@ -10,6 +10,13 @@
        grid-gap: 2%;
    }
 
+   .grid-article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(30px, 80px);
+    grid-auto-rows: 70px;
+   }
+
    .complaint {
        margin-bottom: -20px;
    }
@@ -74,11 +81,19 @@
 }
 
 .grid-article div .plus {
-    right: 10%;
+    right: 11%;
 }
 
 .grid-article div .star {
-    bottom: 25px;
+    bottom: 27px;
+}
+
+.grid-article .img2 .plus {
+    bottom: 3%;
+}
+.grid-article .img6 .plus {
+    bottom: 3%;
+    right: 13%;
 }
 
 /* .space {
